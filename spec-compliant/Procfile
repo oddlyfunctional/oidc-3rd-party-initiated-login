@@ -1,0 +1,3 @@
+ngrok: ngrok start -config=ngrok.yml --all
+idp: node idp.js
+rp: node rp.js

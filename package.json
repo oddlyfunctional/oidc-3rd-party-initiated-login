@@ -1,0 +1,20 @@
+{
+  "name": "openid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Please run `npm run spec-compliant`'",
+    "spec-compliant": "cd ./spec-compliant && nf start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "oidc-provider": "^6.18.0",
+    "openid-client": "^3.10.0"
+  }
+}

@@ -1,0 +1,9 @@
+tunnels:
+  idp:
+    proto: http
+    addr: 3000
+    bind_tls: true
+  rp:
+    proto: http
+    addr: 3001
+    bind_tls: true
